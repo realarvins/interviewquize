@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50 JavaScript QUIZ Question</title>
+    
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">Interviewquiz Guides</p>
+                <p class="subtitle">JavaScript MCQ Quiz Test Question With Answers</p>
+            </div>
+
+            <div class="result hide">
+                <p>Your Scored 6/6!</p> 
+                <p class="reload">
+                    <button onclick="window.location.reload(true)">try Again?</button>
+                </p>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. What is JavaScript?</p>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A">
+                        <label for="">JavaScript is a scripting language used to make the website interactive</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B" >
+                        <label for=""> JavaScript is an assembly language used to make the website interactive</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C" >
+                        <label for="">JavaScript is a compiled language used to make the website interactive</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="D" >
+                        <label for="">None of the mentioned
+                        </label>
+                    </div>
+
+                </div>
+                <div class="question">
+                    <p>2. Which of the following is correct about JavaScript?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A">
+                        <label for="">JavaScript is an Object-Based language</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B" >
+                        <label for="">JavaScript is Assembly-language</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="C" >
+                        <label for="">JavaScript is an Object-Oriented language</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="D">
+                        <label for="">JavaScript is a High-level language</label>
+                    </div>
+
+                </div>
+                <div class="question">
+                    <p>3. Among the given statements, which statement defines closures in JavaScript?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A">
+                        <label for="">JavaScript is a function that is enclosed with references to its inner function scope</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B" >
+                        <label for="">JavaScript is a function that is enclosed with references to its lexical environment</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C" >
+                        <label for="">JavaScript is a function that is enclosed with the object to its inner function scope</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="D">
+                        <label for="">None of the mentioned</label>
+                    </div>
+
+                </div>
+                <div class="question">
+                    <p>4. Javascript is an _______ language?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A">
+                        <label for="">Object-Oriented</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B" >
+                        <label for="">Object-Based</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="C" >
+                        <label for="">Procedural</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="D" >
+                        <label for="">Non of the above</label>
+                    </div>
+
+                </div>
+                <div class="question">
+                    <p>5. Which of the following keywords is used to define a variable in Javascript?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A">
+                        <label for="">var</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B" >
+                        <label for="">let</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C">
+                        <label for="">Both A and B</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="D">
+                        <label for="">None of the above</label>
+                    </div>
+
+                </div>
+                <div class="question">
+                    <p>6. Which of the following methods is used to access HTML elements using Javascript?</p>
+                    <div class="option">
+                        <input type="radio" name="q6" value="A">
+                        <label for="">getElementById()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" value="B" >
+                        <label for="">getElementsByClassName()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" value="C" >
+                        <label for="">Both A and B</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+
+                </div>
+                
+                <div class="question">
+                    <p>7. What will be the output of the following code snippet?</p>
+                    <pre>
+                    <code class="language-javascript hljs">&lt;script type=<span class="hljs-string">"text/javascript"</span>&gt; 
+                        a = <span class="hljs-number">5</span> + <span class="hljs-string">"9"</span>; 
+                        <span class="hljs-built_in">document</span>.write(a); 
+                        &lt;/script&gt;</code>
+                    </pre>
+                    <div class="option">
+                        <input type="radio" name="q7" value="A">
+                        <label for="">Compilation Error</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" value="B" >
+                        <label for="">14</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" value="C" >
+                        <label for="">Runtime Error</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" value="D" >
+                        <label for="">59</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p>8. What will be the output of the following code snippet?</p>
+                    <pre>
+                    <code class="language-javascript hljs">&lt;script type=<span class="hljs-string">"text/javascript"</span>&gt; 
+                         var a = <span class="hljs-string">"Scalar8</span>; 
+                         var result = <span class="hljs-string">a.substring(2,4)</span>; 
+                        <span class="hljs-built_in">document</span>.write(result); 
+                        &lt;/script&gt;</code>
+                    </pre>
+                    <div class="option">
+                        <input type="radio" name="q8" value="A">
+                        <label for="">al</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" value="B" >
+                        <label for="">ale</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" value="C" >
+                        <label for="">cal</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" value="D" >
+                        <label for="">caler</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p>9. What will be the output of the following code snippet?</p>
+                    <pre>
+                    <code class="language-javascript hljs">&lt;script type=<span class="hljs-string">"text/javascript"</span>&gt; 
+                         var x = <span class="hljs-string">12</span>; 
+                         var y = <span class="hljs-string">8</span>; 
+                         var res = <span class="hljs-string">eval("x+y")</span>; 
+                        <span class="hljs-built_in">document</span>.write(res); 
+                        &lt;/script&gt;</code>
+                    </pre>
+                    <div class="option">
+                        <input type="radio" name="q9" value="A">
+                        <label for="">20</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" value="B" >
+                        <label for="">x+y</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" value="C" >
+                        <label for="">128</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>10. What keyword is used to check whether a given property is valid or not?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q10" value="A">
+                        <label for="">in</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" value="B" >
+                        <label for="">is in</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" value="C" >
+                        <label for="">exists</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" value="D" >
+                        <label for="">lies</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>11. What is the use of the &lt;noscript&gt; tag in Javascript?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q11" value="A">
+                        <label for="">The contents are displayed by non-js-based browsers.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q11" value="B" >
+                        <label for="">Clears all the cookies and cache.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q11" value="C" >
+                        <label for="">Both A and B</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q11" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>12. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">(function(){
+                        setTimeout(()=&gt; console.log(1),2000);
+                        console.log(2);
+                        setTimeout(()=&gt; console.log(3),0);
+                        console.log(4);
+                       })();</code></pre>
+                    <div class="option">
+                        <input type="radio" name="q12" value="A">
+                        <label for="">1 2 3 4</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q12" value="B" >
+                        <label for="">2 3 4 1</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q12" value="C" >
+                        <label for="">2 4 3 1</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q12" value="D" >
+                        <label for="">4 3 2 1</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>13. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">(function(a){
+                        return (function(){
+                        console.log(a);
+                        a = 6 ;
+                        })()
+                       })(21);</code></pre>
+                    <div class="option">
+                        <input type="radio" name="q13" value="A">
+                        <label for="">6</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q13" value="B" >
+                        <label for="">NaN</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q13" value="C" >
+                        <label for="">21</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q13" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>14. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">function solve(arr,rotations){
+                        if(rotations == 0) return arr;
+                        for(let i =0; i< rotations; i++){
+                            let element = arr.pop();
+                            arr.unshift(element);
+                        } return arr;
+                            }
+                            //solve ([44,1,22,111],5);
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q14" value="A">
+                        <label for="">111,44,1,22</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q14" value="B" >
+                        <label for="">44,1,22,111</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q14" value="C" >
+                        <label for="">111,44,1,22</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q14" value="D" >
+                        <label for="">1,22,111,44</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>15. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs"> &lt;p id=<span class="hljs-string">"example" &lt;/p</span>&gt; 
+                &lt;script&gt;
+                function func()
+                {
+                 document.getElementById("example").innerHTML=Math.sqrt(81);  
+                }
+                &lt;script&gt;
+                            
+               </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q15" value="A">
+                        <label for="">9</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q15" value="B" >
+                        <label for="">81</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q15" value="C" >
+                        <label for="">Error</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q15" value="D" >
+                        <label for="">0</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>16. When an operator’s value is NULL, the typeof returned by the unary operator is:</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q16" value="A">
+                        <label for="">Boolean</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q16" value="B" >
+                        <label for="">Undefined</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q16" value="C" >
+                        <label for="">Object</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q16" value="D" >
+                        <label for="">Integer</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>17. When an operator’s value is NULL, the typeof returned by the unary operator is:</p>
+                    
+                    <pre><code class="language-plaintext hljs">
+                        var a = 1;  
+                        var b = 0;  
+                        while (a <= 3)  
+                        {  
+                           a++;  
+                           b += a * 2;  
+                           print(b);
+                        }
+                       </code>
+                    </pre>
+                    <div class="option">
+                        <input type="radio" name="q17" value="A">
+                        <label for="">4 10 18</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q17" value="B" >
+                        <label for="">1 2 3</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q17" value="C" >
+                        <label for="">1 4 7</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q17" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>18. What does the Javascript “debugger” statement do?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q18" value="A">
+                        <label for="">It will debug all the errors in the program at runtime.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q18" value="B" >
+                        <label for="">It acts as a breakpoint in a program.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q18" value="C" >
+                        <label for="">It will debug error in the current statement if any.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q18" value="D" >
+                        <label for="">All of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>19. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">
+                        var a = Math.max();
+                        var b = Math.min();
+                        print(a);
+                        print(b);
+                       </code>
+                    </pre>
+                    <div class="option">
+                        <input type="radio" name="q19" value="A">
+                        <label for="">-Infinity Infinity</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q19" value="B" >
+                        <label for="">Infinity -Infinity</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q19" value="C" >
+                        <label for="">Infinity Infinity</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q19" value="D" >
+                        <label for="">-Infinity -Infinity</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>20. What will be the output of the following code?</p>
+                    <pre><code class="language-plaintext hljs">
+                    var a = Math.max() < Math.min();
+                    var b = Math.max() > Math.min();
+                    print(a);
+                    print(b);
+                       </code>
+                    </pre>
+                    <div class="option">
+                        <input type="radio" name="q20" value="A">
+                        <label for="">true false</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q20" value="B" >
+                        <label for="">false true</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q20" value="C" >
+                        <label for="">true true</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q20" value="D" >
+                        <label for="">false false</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>21. What will be the output of the following code?</p>
+                    <pre><code class="language-plaintext hljs">
+                        var a = true + true + true * 3;
+                        print(a)
+                       </code>
+                    </pre>
+                    <div class="option">
+                        <input type="radio" name="q21" value="A">
+                        <label for="">3</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q21" value="B" >
+                        <label for="">0</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q21" value="C" >
+                        <label for="">Error</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q21" value="D" >
+                        <label for="">5</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>22. What is the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">
+                        print(NaN === NaN);
+                       </code>
+                    </pre>
+                    <div class="option">
+                        <input type="radio" name="q22" value="A">
+                        <label for="">true</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q22" value="B" >
+                        <label for="">false</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q22" value="C" >
+                        <label for="">Undefined</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q22" value="D" >
+                        <label for="">Error</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>23. What is the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">
+                        print(typeof(NaN));
+                       </code>
+                    </pre>
+                    <div class="option">
+                        <input type="radio" name="q23" value="A">
+                        <label for="">Object</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q23" value="B" >
+                        <label for="">Number</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q23" value="C" >
+                        <label for="">String</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q23" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>24. What does the ‘toLocateString()’ method do in JS?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q24" value="A">
+                        <label for="">Returns a localised object reprsentation</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q24" value="B" >
+                        <label for="">Returns a parsed string</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q24" value="C" >
+                        <label for="">Returns a localized string reprsentation of an object</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q24" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>25. Which function is used to serialize an object into a JSON string in Javascript?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q25" value="A">
+                        <label for="">stringify()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q25" value="B" >
+                        <label for="">parse()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q25" value="C" >
+                        <label for="">convert()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q25" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>26. The 3 basic object attributes in Javascript are:</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q26" value="A">
+                        <label for="">Class, prototype, objects' parameters</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q26" value="B" >
+                        <label for="">Class, prototype, objects' extensible flag</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q26" value="C" >
+                        <label for="">Class, parameters, objects' extensible false</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q26" value="D" >
+                        <label for="">Classes, Native object, and Interfaces and Object's extensible flag</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>27. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">
+                        let sum = 0; 
+                        const a = [1, 2, 3];
+                        a.forEach(getSum);
+                        print(sum);
+                        function getSum(ele) {
+                          sum += ele;
+                            }
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q27" value="A">
+                        <label for="">6</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q27" value="B" >
+                        <label for="">1</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q27" value="C" >
+                        <label for="">2</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q27" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>28. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">
+                        a = [1, 2, 3, 4, 5];
+                        print(a.slice(2, 4));
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q28" value="A">
+                        <label for="">3, 4</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q28" value="B" >
+                        <label for="">2, 3</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q28" value="C" >
+                        <label for="">3, 4, 5</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q28" value="D" >
+                        <label for="">2, 3, 4</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>29. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">
+                        print(parseInt("123Hello"));
+                        print(parseInt("Hello123"));
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q29" value="A">
+                        <label for="">123 NaN</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q29" value="B" >
+                        <label for="">123Hello Hello123</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q29" value="C" >
+                        <label for="">NaN NaN</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q29" value="D" >
+                        <label for="">123 123</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>30. Which of the following are closures in Javascript?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q30" value="A">
+                        <label for="">Variables</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q30" value="B" >
+                        <label for="">function</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q30" value="C" >
+                        <label for="">Objects</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q30" value="D" >
+                        <label for="">All of the  above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>31. Which of the following is not a Javascript framework?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q31" value="A">
+                        <label for="">Node</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q31" value="B" >
+                        <label for="">Vue</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q31" value="C" >
+                        <label for="">React</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q31" value="D" >
+                        <label for="">Cassandra</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>32. Which of the following is not a Javascript framework?</p>
+                    <pre><code class="language-plaintext hljs">
+                        var a = "hello";
+                        var sum = 0;
+                        for(var i = 0; i < a.length; i++) {
+                            sum += (a[i] - 'a');
+                        }
+                        print(sum);
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q32" value="A">
+                        <label for="">47</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q32" value="B" >
+                        <label for="">NaN</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q32" value="C" >
+                        <label for="">0</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q32" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>33. What keyword is used to declare an asynchronous function in Javascript?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q33" value="A">
+                        <label for="">async</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q33" value="B" >
+                        <label for="">await</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q33" value="C" >
+                        <label for="">setTimeout</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q33" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>34. How to stop an interval timer in Javascript?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q34" value="A">
+                        <label for="">clearInterval</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q34" value="B" >
+                        <label for="">clearTimer</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q34" value="C" >
+                        <label for="">intervalOver</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q34" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>35. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">
+                        const set = new Set();
+                        set.add(5);
+                        set.add('Hello');
+                        set.add({ name: 'Scaler' });
+                        for (let item of set) {
+                        console.log(item + 6);
+                        }
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q35" value="A">
+                        <label for="">11 NaN NaN</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q35" value="B" >
+                        <label for="">11 NaN [object Object]</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q35" value="C" >
+                        <label for="">11 Hello6 [object Object]6</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q35" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>36. How are objects compared when they are checked with the strict equality operator?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q36" value="A">
+                        <label for="">The contents of the objects are compared</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q36" value="B" >
+                        <label for="">Their references are compared</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q36" value="C" >
+                        <label for="">Both A and B</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q36" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>37. What does … operator do in JS?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q37" value="A">
+                        <label for="">It is to spread iterables to individual elements</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q37" value="B" >
+                        <label for="">It is used to describe a datatype of undefine size</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q37" value="C" >
+                        <label for="">No such operators exists</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q37" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>38. What will be the output of the following code?</p>
+                    <pre><code class="language-plaintext hljs">
+                        const example = ({ a, b, c }) => {
+                            console.log(a, b, c);
+                           };
+                           example(0, 1, 2);
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q38" value="A">
+                        <label for="">0 1 2</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q38" value="B" >
+                        <label for="">0 Undefined Undefined</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q38" value="C" >
+                        <label for="">Undefined Undefined Undefined</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q38" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>39. What will be the output of the following code?</p>
+                    <pre><code class="language-plaintext hljs">
+                        let a = [1, 2, 3, 4, 5, 6];
+                        var left = 0, right = 5;
+                        var found = false;
+                        var target = 5;
+                        while(left <= right) {
+                     var mid = Math.floor((left + right) / 2);
+                     if(a[mid] == target) {
+                     found = true;
+                     break;
+                     }
+                        else if(a[mid] < target) {
+                       left = mid + 1;
+                      }
+                      else {
+                        right = mid - 1;
+                        }
+                    }
+                        if(found) {
+                          print("YES");
+                            }
+                        else {
+                        print("NO");
+                            }
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q39" value="A">
+                        <label for="">YES</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q39" value="B" >
+                        <label for="">NO</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q39" value="C" >
+                        <label for="">Syntax Error</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q39" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>40. What will be the output of the following code?</p>
+                    <pre><code class="language-plaintext hljs">
+                    let s = "00000001111111";
+                    let l = 0, r = s.length - 1, ans = -1;
+                    while(l <= r) {
+                    var mid = Math.floor((l + r) / 2);
+                    if(s[mid] == '1') {
+                     ans = mid;
+                    r = mid - 1;
+                     }
+                    else {
+                    l = mid + 1;
+                        }
+                    }
+                    print(ans);
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q40" value="A">
+                        <label for="">8</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q40" value="B" >
+                        <label for="">7</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q40" value="C" >
+                        <label for="">0</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q40" value="D" >
+                        <label for="">1</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>41. What will be the output of the following code?</p>
+                    <pre><code class="language-plaintext hljs">
+                        let n = 24;
+                        let l = 0, r = 100, ans = n;
+                        while(l <= r) {
+                           let mid = Math.floor((l + r) / 2);
+                           if(mid * mid <= n) {
+                               ans = mid;
+                               l = mid + 1;
+                           }
+                           else {
+                               r = mid - 1;
+                           }
+                        }
+                        print(ans);
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q41" value="A">
+                        <label for="">5</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q41" value="B" >
+                        <label for="">4</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q41" value="C" >
+                        <label for="">6</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q41" value="D" >
+                        <label for="">3</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>42. What will be the output of the following code?</p>
+                    <pre><code class="language-plaintext hljs">
+                        const obj1 = {Name: "Hello", Age: 16};
+                        const obj2 = {Name: "Hello", Age: 16};
+                        print(obj1 === obj2);
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q42" value="A">
+                        <label for="">true</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q42" value="B" >
+                        <label for="">false</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q42" value="C" >
+                        <label for="">Undefined</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q42" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>43. What happens when we run this code?</p>
+                    <pre><code class="language-plaintext hljs">
+                     function dog() {
+                      print("I am a dog.");
+                      }
+                     dog.sound = "Bark";                         
+                        </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q43" value="A">
+                        <label for="">Syntax Error</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q43" value="B" >
+                        <label for="">"I and dog" gets printed</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q43" value="C" >
+                        <label for="">referencesError</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q43" value="D" >
+                        <label for="">Nothing happens</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>44. How do we write a comment in javascript?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q44" value="A">
+                        <label for="">/* */</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q44" value="B" >
+                        <label for="">//</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q44" value="C" >
+                        <label for="">#</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q44" value="D" >
+                        <label for="">$ $</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>45. Which object in Javascript doesn’t have a prototype?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q45" value="A">
+                        <label for="">Base Object</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q45" value="B" >
+                        <label for="">All objects have a prototype</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q45" value="C" >
+                        <label for="">None of the objects have a prototype</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q45" value="D" >
+                        <label for="">None of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>46. What will be the output of the following code?</p>
+                    <pre><code class="language-plaintext hljs">
+                        function test(...args) {
+                            console.log(typeof args);
+                           }
+                           test(12);                         
+                           </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q46" value="A">
+                        <label for="">NaN</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q46" value="B" >
+                        <label for="">Number</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q46" value="C" >
+                        <label for="">Object</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q46" value="D" >
+                        <label for="">Array</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>47. What will be the output of the following code?</p>
+                    <pre><code class="language-plaintext hljs">
+                const obj1 = {first: 20, second: 30, first: 50};
+                console.log(obj1);                         
+                           </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q47" value="A">
+                        <label for="">{first:20, second:30}</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q47" value="B" >
+                        <label for="">{first:50, second:30}</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q47" value="C" >
+                        <label for="">{first:20, second:30, first:50}</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q47" value="D" >
+                        <label for="">Syntax Error</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>48. Which of the following are not server-side Javascript objects?</p>
+                    
+                    <div class="option">
+                        <input type="radio" name="q48" value="A">
+                        <label for="">Date</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q48" value="B" >
+                        <label for="">FileUpload</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q48" value="C" >
+                        <label for="">Function</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q48" value="D" >
+                        <label for="">All of the above</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>49. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">
+                        function delayLog() {
+                            for (var i = 1; i <= 5; i++) {
+                              setTimeout(function () {
+                                console.log(i);
+                              }, 1000);
+                            }
+                          }
+                          
+                          delayLog();                         
+                    </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q49" value="A">
+                        <label for=""> 1, 2, 3, 4, 5 </label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q49" value="B" >
+                        <label for="">5, 5, 5, 5, 5 </label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q49" value="C" >
+                        <label for=""> 6, 6, 6, 6, 6 </label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q49" value="D" >
+                        <label for="">1, 6, 6, 6, 6 </label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>50. What will be the output of the following code snippet?</p>
+                    <pre><code class="language-plaintext hljs">
+                     function foo() {
+                     return new Promise(function (resolve, reject) {
+                         setTimeout(function () {
+                           resolve("Promise resolved.");
+                          }, 1000);
+                         });
+                        }
+                          
+                          console.log("Start");
+                          foo().then(function (result) {
+                            console.log(result);
+                          });
+                          console.log("End");                           
+                    </code></pre>
+                    <div class="option">
+                        <input type="radio" name="q50" value="A">
+                        <label for="">Start, Promise resolved., End</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q50" value="B" >
+                        <label for="">Start, End, Promise resolved.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q50" value="C" >
+                        <label for="">Promise resolved., Start, End</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q50" value="D" >
+                        <label for="">Start, End, Promise resolved.</label>
+                    </div>
+                </div>
+
+
+
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="./assets/js/50-js-mcq.js"></script>
+</body>
+</html>
