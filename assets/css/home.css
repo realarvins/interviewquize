@@ -6,11 +6,9 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-}
-
-body{
   font-family: 'Roboto', sans-serif;
 }
+
 
 header {
   background-color: rgb(35, 78, 78);
@@ -27,12 +25,12 @@ header {
 
 
 .navbar{
-  position: relative;
+  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
   background: #E0E0E0;
-  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   width: 100%;
 
 }
@@ -60,20 +58,6 @@ header {
   color: #fff;
 }
 
-@media only screen and (max-width: 800px) {
-  .navbar,.brand-name {
-      display: flex;
-      font-size: 12px;
-      justify-content: space-between;
- }
-  .brand-name img{
-    width: 120px;
-  }
-  .menu li{
-    padding: 9px  12px;
-    margin-right: 3px;
-  }
-}
 
 
 .header-content{
@@ -85,14 +69,14 @@ header {
   height: 100%;
 }
 
-.header-main-content p{
+.header-main-content p,h2{
   color: #040505;
   font-size: 30px;
   padding: 20px 0px 0px 0px;
 }
 
-.header-main-content h1{
-  font-size: 75px;
+.header-main-content h2{
+  /* font-size: 75px; */
   color: #0a0909;
   margin-top: 40px;
 }
@@ -204,8 +188,31 @@ footer a {
   padding:5px 0;
 }
 
+@media only screen and (max-width: 800px) {
+  .navbar.brand-name {
+      display: flex;
+      /* font-size: 12px; */
+      justify-content: space-between;
+ }
+  .brand-name img{
+    width: 120px;
+  }
+   .menu li{
+    padding: 5px  5px;
+    margin-right: 3px;
+  }
+}
+
+
 @media only screen and (max-width: 749px) {
-  .main-footer {
+  .menu{
+    display: flex;
+    padding: 0px  22px;
+    margin: 5px 15px;
+    margin-right: 3px;
+  }
+  
+    .main-footer {
     padding:20px;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -225,6 +232,30 @@ footer a {
   .com{
     padding:20px 0;
   } 
+  .menu li{
+    padding: 5px 5px;
+    margin: 0px 3.8px;
+  }
 
 }
   /* end footer styling */
+
+  @media(max-width:320px){
+    .navbar {
+      display: flex;
+      font-size: 10px;
+      text-align: left;
+      justify-content: space-between;
+ }
+ .navbar .menu{
+  width: 100%;
+  justify-content: space-between;
+ }
+ .navbar .menu li{
+  margin: 10px 0px;
+ }
+ .brand-name img{
+  font-size: 0px;
+  width: 100px;
+ }
+  }
